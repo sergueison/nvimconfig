@@ -866,8 +866,8 @@ require('lazy').setup({
   },
 
   {
-    'github/copilot.vim',
-    lazy = false,
+    'github/copilot.vim', -- GitHub Copilot integration
+    lazy = false, -- Load this plugin immediately
   },
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
